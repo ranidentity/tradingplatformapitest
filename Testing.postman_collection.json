@@ -1,0 +1,643 @@
+{
+	"info": {
+		"_postman_id": "76461a1e-10e5-45e5-b2a2-ac32588e8833",
+		"name": "Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4705670"
+	},
+	"item": [
+		{
+			"name": "api/getorderbook",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/getorderbook?platform=cex",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"getorderbook"
+					],
+					"query": [
+						{
+							"key": "platform",
+							"value": "cex"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cex",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getorderbook?platform=cex",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getorderbook"
+							],
+							"query": [
+								{
+									"key": "platform",
+									"value": "cex"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:04 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"platform\": \"cex\",\n        \"pair\": \"BTC_USDT\",\n        \"type\": \"buy\",\n        \"list\": [\n            {\n                \"price\": 27902.9,\n                \"quantity\": 0.01061075\n            },\n            {\n                \"price\": 27900.3,\n                \"quantity\": 0.00252245\n            },\n            {\n                \"price\": 27900.2,\n                \"quantity\": 0.00037\n            },\n            {\n                \"price\": 27705,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 27619.6,\n                \"quantity\": 0.00121412\n            },\n            {\n                \"price\": 27401.4,\n                \"quantity\": 0.00075834\n            },\n            {\n                \"price\": 27265,\n                \"quantity\": 0.00108101\n            },\n            {\n                \"price\": 26109,\n                \"quantity\": 0.00068758\n            },\n            {\n                \"price\": 25276.8,\n                \"quantity\": 0.0007645\n            },\n            {\n                \"price\": 23593.4,\n                \"quantity\": 0.00100439\n            },\n            {\n                \"price\": 23100,\n                \"quantity\": 0.05114103\n            },\n            {\n                \"price\": 22210,\n                \"quantity\": 0.00251246\n            },\n            {\n                \"price\": 22029,\n                \"quantity\": 0.00036\n            },\n            {\n                \"price\": 22002.7,\n                \"quantity\": 0.00036\n            },\n            {\n                \"price\": 21921.4,\n                \"quantity\": 0.0007035\n            },\n            {\n                \"price\": 21500,\n                \"quantity\": 0.01373035\n            },\n            {\n                \"price\": 20500,\n                \"quantity\": 0.04623579\n            },\n            {\n                \"price\": 20185.6,\n                \"quantity\": 0.00074086\n            },\n            {\n                \"price\": 20000.1,\n                \"quantity\": 0.0229247\n            },\n            {\n                \"price\": 19500.1,\n                \"quantity\": 0.0201512\n            },\n            {\n                \"price\": 19500,\n                \"quantity\": 0.04308243\n            },\n            {\n                \"price\": 19010,\n                \"quantity\": 0.04474581\n            },\n            {\n                \"price\": 18010.1,\n                \"quantity\": 0.001106\n            },\n            {\n                \"price\": 18010,\n                \"quantity\": 0.0537827\n            },\n            {\n                \"price\": 17600,\n                \"quantity\": 0.04438896\n            },\n            {\n                \"price\": 17000,\n                \"quantity\": 0.05886302\n            },\n            {\n                \"price\": 16100.2,\n                \"quantity\": 0.002275\n            },\n            {\n                \"price\": 16000,\n                \"quantity\": 0.03\n            },\n            {\n                \"price\": 15000,\n                \"quantity\": 0.1303172\n            },\n            {\n                \"price\": 14355,\n                \"quantity\": 0.04485466\n            },\n            {\n                \"price\": 14200,\n                \"quantity\": 0.0004488\n            },\n            {\n                \"price\": 14000,\n                \"quantity\": 0.00147108\n            },\n            {\n                \"price\": 13000,\n                \"quantity\": 0.00147108\n            },\n            {\n                \"price\": 12000.1,\n                \"quantity\": 0.00055\n            },\n            {\n                \"price\": 12000,\n                \"quantity\": 0.00147108\n            },\n            {\n                \"price\": 11515,\n                \"quantity\": 0.01\n            },\n            {\n                \"price\": 11000.1,\n                \"quantity\": 0.000743\n            },\n            {\n                \"price\": 11000,\n                \"quantity\": 0.19647108\n            },\n            {\n                \"price\": 10500,\n                \"quantity\": 0.00194936\n            },\n            {\n                \"price\": 10200,\n                \"quantity\": 0.1\n            },\n            {\n                \"price\": 10000,\n                \"quantity\": 0.06585643\n            },\n            {\n                \"price\": 9400,\n                \"quantity\": 0.24\n            },\n            {\n                \"price\": 9250,\n                \"quantity\": 0.007465\n            },\n            {\n                \"price\": 9100,\n                \"quantity\": 0.99\n            },\n            {\n                \"price\": 9000,\n                \"quantity\": 0.00147108\n            },\n            {\n                \"price\": 1249.9,\n                \"quantity\": 1\n            }\n        ]\n    },\n    {\n        \"platform\": \"cex\",\n        \"pair\": \"BTC_USDT\",\n        \"type\": \"ask\",\n        \"list\": [\n            {\n                \"price\": 28706.6,\n                \"quantity\": 0.57365107\n            },\n            {\n                \"price\": 28706.7,\n                \"quantity\": 0.018402\n            },\n            {\n                \"price\": 28707.4,\n                \"quantity\": 0.07319833\n            },\n            {\n                \"price\": 28799.9,\n                \"quantity\": 0.14939842\n            },\n            {\n                \"price\": 28800,\n                \"quantity\": 0.005\n            },\n            {\n                \"price\": 28887.9,\n                \"quantity\": 0.02985128\n            },\n            {\n                \"price\": 28888,\n                \"quantity\": 0.02736777\n            },\n            {\n                \"price\": 29127.5,\n                \"quantity\": 3.21662071\n            },\n            {\n                \"price\": 29127.6,\n                \"quantity\": 0.05\n            },\n            {\n                \"price\": 29350,\n                \"quantity\": 0.5882881\n            },\n            {\n                \"price\": 29417.4,\n                \"quantity\": 0.00406254\n            },\n            {\n                \"price\": 29425,\n                \"quantity\": 0.01822\n            },\n            {\n                \"price\": 29555,\n                \"quantity\": 0.025\n            },\n            {\n                \"price\": 29874,\n                \"quantity\": 0.01\n            },\n            {\n                \"price\": 29915.9,\n                \"quantity\": 0.00354449\n            },\n            {\n                \"price\": 29999,\n                \"quantity\": 0.00019077\n            },\n            {\n                \"price\": 30000,\n                \"quantity\": 0.05030315\n            },\n            {\n                \"price\": 30758.9,\n                \"quantity\": 0.00337983\n            },\n            {\n                \"price\": 31100,\n                \"quantity\": 0.0056\n            },\n            {\n                \"price\": 31111,\n                \"quantity\": 0.17773752\n            },\n            {\n                \"price\": 31555,\n                \"quantity\": 0.025\n            },\n            {\n                \"price\": 31645.7,\n                \"quantity\": 0.00347\n            },\n            {\n                \"price\": 32000,\n                \"quantity\": 0.0006731\n            },\n            {\n                \"price\": 32202.3,\n                \"quantity\": 0.00374461\n            },\n            {\n                \"price\": 32222,\n                \"quantity\": 0.00019077\n            },\n            {\n                \"price\": 32978,\n                \"quantity\": 0.0115\n            },\n            {\n                \"price\": 33499,\n                \"quantity\": 0.005\n            },\n            {\n                \"price\": 33500,\n                \"quantity\": 0.00064542\n            },\n            {\n                \"price\": 33717.9,\n                \"quantity\": 0.00299077\n            },\n            {\n                \"price\": 33777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 34999,\n                \"quantity\": 0.00507\n            },\n            {\n                \"price\": 35777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 36450,\n                \"quantity\": 0.0019909\n            },\n            {\n                \"price\": 37773,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 38000,\n                \"quantity\": 0.01233307\n            },\n            {\n                \"price\": 38777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 38880,\n                \"quantity\": 0.004\n            },\n            {\n                \"price\": 38900,\n                \"quantity\": 0.02973\n            },\n            {\n                \"price\": 39777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 39820,\n                \"quantity\": 0.005\n            },\n            {\n                \"price\": 41000,\n                \"quantity\": 0.00417634\n            },\n            {\n                \"price\": 41777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 41900,\n                \"quantity\": 0.001\n            },\n            {\n                \"price\": 42000,\n                \"quantity\": 0.07411176\n            },\n            {\n                \"price\": 42777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 43777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 46400,\n                \"quantity\": 0.00053\n            },\n            {\n                \"price\": 46428,\n                \"quantity\": 0.01754609\n            },\n            {\n                \"price\": 47774,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 48000,\n                \"quantity\": 0.0056459\n            },\n            {\n                \"price\": 48100,\n                \"quantity\": 0.01400573\n            },\n            {\n                \"price\": 48700,\n                \"quantity\": 0.0046935\n            },\n            {\n                \"price\": 49600,\n                \"quantity\": 0.00469349\n            },\n            {\n                \"price\": 49777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 49998.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 50000,\n                \"quantity\": 0.01687305\n            },\n            {\n                \"price\": 50998.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 51998.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 52777,\n                \"quantity\": 0.00037878\n            },\n            {\n                \"price\": 52998.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 53246.5,\n                \"quantity\": 0.01128725\n            },\n            {\n                \"price\": 53998.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 54000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 54777,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 54998.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 55000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 55554.9,\n                \"quantity\": 0.02\n            },\n            {\n                \"price\": 55798.9,\n                \"quantity\": 0.00485953\n            },\n            {\n                \"price\": 56000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 57000,\n                \"quantity\": 0.0018224\n            },\n            {\n                \"price\": 57775,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 58000,\n                \"quantity\": 0.00272\n            },\n            {\n                \"price\": 59000,\n                \"quantity\": 0.0186\n            },\n            {\n                \"price\": 59990,\n                \"quantity\": 0.01349896\n            },\n            {\n                \"price\": 60000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 60375,\n                \"quantity\": 0.003\n            },\n            {\n                \"price\": 61000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 61199,\n                \"quantity\": 0.00754584\n            },\n            {\n                \"price\": 62000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 62199,\n                \"quantity\": 0.045\n            },\n            {\n                \"price\": 63000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 63199,\n                \"quantity\": 0.01670001\n            },\n            {\n                \"price\": 64000,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 67500,\n                \"quantity\": 0.01588074\n            },\n            {\n                \"price\": 67776,\n                \"quantity\": 0.00018939\n            },\n            {\n                \"price\": 68499,\n                \"quantity\": 0.00700118\n            },\n            {\n                \"price\": 68750,\n                \"quantity\": 0.01673056\n            },\n            {\n                \"price\": 69000,\n                \"quantity\": 0.03590441\n            },\n            {\n                \"price\": 70000,\n                \"quantity\": 0.43347542\n            },\n            {\n                \"price\": 70500,\n                \"quantity\": 0.0143\n            },\n            {\n                \"price\": 71500,\n                \"quantity\": 0.0074\n            },\n            {\n                \"price\": 71999,\n                \"quantity\": 0.019\n            },\n            {\n                \"price\": 72700,\n                \"quantity\": 0.007\n            },\n            {\n                \"price\": 73500,\n                \"quantity\": 0.0137\n            },\n            {\n                \"price\": 73800,\n                \"quantity\": 0.1633985\n            },\n            {\n                \"price\": 75000,\n                \"quantity\": 0.08106479\n            },\n            {\n                \"price\": 77777,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 79999,\n                \"quantity\": 0.015\n            },\n            {\n                \"price\": 80000,\n                \"quantity\": 0.06249442\n            },\n            {\n                \"price\": 88777,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 88888,\n                \"quantity\": 0.1\n            },\n            {\n                \"price\": 90000,\n                \"quantity\": 0.45745455\n            },\n            {\n                \"price\": 95835,\n                \"quantity\": 0.02640118\n            },\n            {\n                \"price\": 98000,\n                \"quantity\": 0.00302932\n            },\n            {\n                \"price\": 99250,\n                \"quantity\": 0.00125587\n            },\n            {\n                \"price\": 99777,\n                \"quantity\": 0.0004\n            },\n            {\n                \"price\": 100000,\n                \"quantity\": 0.13\n            },\n            {\n                \"price\": 111111,\n                \"quantity\": 0.00036777\n            },\n            {\n                \"price\": 122222,\n                \"quantity\": 0.00036777\n            },\n            {\n                \"price\": 129000,\n                \"quantity\": 2\n            },\n            {\n                \"price\": 130000,\n                \"quantity\": 0.2\n            },\n            {\n                \"price\": 137258,\n                \"quantity\": 0.01742664\n            },\n            {\n                \"price\": 138500,\n                \"quantity\": 0.0032\n            },\n            {\n                \"price\": 150000,\n                \"quantity\": 0.00110425\n            },\n            {\n                \"price\": 159650,\n                \"quantity\": 0.015\n            },\n            {\n                \"price\": 160000,\n                \"quantity\": 0.2\n            },\n            {\n                \"price\": 188888,\n                \"quantity\": 0.1\n            },\n            {\n                \"price\": 200000,\n                \"quantity\": 0.00376806\n            },\n            {\n                \"price\": 211111.1,\n                \"quantity\": 0.0375\n            },\n            {\n                \"price\": 220000,\n                \"quantity\": 0.00500348\n            },\n            {\n                \"price\": 221111.1,\n                \"quantity\": 0.0375\n            },\n            {\n                \"price\": 288888,\n                \"quantity\": 0.1\n            },\n            {\n                \"price\": 350000,\n                \"quantity\": 0.005\n            }\n        ]\n    }\n]"
+				},
+				{
+					"name": "binance",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getorderbook?platform=binance",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getorderbook"
+							],
+							"query": [
+								{
+									"key": "platform",
+									"value": "binance"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:25 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"platform\": \"binance\",\n        \"pair\": \"BTC_USDT\",\n        \"type\": \"buy\",\n        \"list\": [\n            {\n                \"price\": \"28637.00000000\",\n                \"quantity\": \"6.43260000\"\n            },\n            {\n                \"price\": \"28636.97000000\",\n                \"quantity\": \"0.00272000\"\n            },\n            {\n                \"price\": \"28636.96000000\",\n                \"quantity\": \"0.00397000\"\n            },\n            {\n                \"price\": \"28636.94000000\",\n                \"quantity\": \"0.00055000\"\n            },\n            {\n                \"price\": \"28636.91000000\",\n                \"quantity\": \"0.00042000\"\n            },\n            {\n                \"price\": \"28636.59000000\",\n                \"quantity\": \"0.29264000\"\n            },\n            {\n                \"price\": \"28636.58000000\",\n                \"quantity\": \"0.16000000\"\n            },\n            {\n                \"price\": \"28636.50000000\",\n                \"quantity\": \"0.32000000\"\n            },\n            {\n                \"price\": \"28636.47000000\",\n                \"quantity\": \"0.00065000\"\n            },\n            {\n                \"price\": \"28636.44000000\",\n                \"quantity\": \"0.08418000\"\n            }\n        ]\n    },\n    {\n        \"platform\": \"binance\",\n        \"pair\": \"BTC_USDT\",\n        \"type\": \"ask\",\n        \"list\": [\n            {\n                \"price\": \"28637.01000000\",\n                \"quantity\": \"4.37638000\"\n            },\n            {\n                \"price\": \"28637.05000000\",\n                \"quantity\": \"0.00211000\"\n            },\n            {\n                \"price\": \"28637.30000000\",\n                \"quantity\": \"0.01892000\"\n            },\n            {\n                \"price\": \"28637.43000000\",\n                \"quantity\": \"0.20000000\"\n            },\n            {\n                \"price\": \"28637.55000000\",\n                \"quantity\": \"0.00066000\"\n            },\n            {\n                \"price\": \"28637.58000000\",\n                \"quantity\": \"0.01204000\"\n            },\n            {\n                \"price\": \"28637.83000000\",\n                \"quantity\": \"0.00647000\"\n            },\n            {\n                \"price\": \"28637.99000000\",\n                \"quantity\": \"0.99862000\"\n            },\n            {\n                \"price\": \"28638.00000000\",\n                \"quantity\": \"1.66437000\"\n            },\n            {\n                \"price\": \"28638.27000000\",\n                \"quantity\": \"0.00065000\"\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "api/getticker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/get24hticker?platform=cex",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"get24hticker"
+					],
+					"query": [
+						{
+							"key": "platform",
+							"value": "cex"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "binance",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/get24hticker?platform=binance",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"get24hticker"
+							],
+							"query": [
+								{
+									"key": "platform",
+									"value": "binance"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:39 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "56"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"symbol\": \"BTCUSDT\",\n    \"priceChange\": \"216.93000000\",\n    \"priceChangePercent\": \"0.764\",\n    \"weightedAvgPrice\": \"28189.26813448\",\n    \"prevClosePrice\": \"28401.47000000\",\n    \"lastPrice\": \"28620.71000000\",\n    \"lastQty\": \"0.01051000\",\n    \"bidPrice\": \"28620.70000000\",\n    \"bidQty\": \"6.86576000\",\n    \"askPrice\": \"28620.71000000\",\n    \"askQty\": \"2.57300000\",\n    \"openPrice\": \"28403.78000000\",\n    \"highPrice\": \"28736.00000000\",\n    \"lowPrice\": \"27900.00000000\",\n    \"volume\": \"212672.01508000\",\n    \"quoteVolume\": \"5995068457.78960940\",\n    \"openTime\": 1679417800747,\n    \"closeTime\": 1679504200747,\n    \"firstId\": 3046229473,\n    \"lastId\": 3051000746,\n    \"count\": 4771274\n}"
+				},
+				{
+					"name": "cex",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/get24hticker?platform=cex",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"get24hticker"
+							],
+							"query": [
+								{
+									"key": "platform",
+									"value": "cex"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:49 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:56:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "55"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"timestamp\": \"1679504211\",\n    \"low\": \"26354.3\",\n    \"high\": \"28796.1\",\n    \"last\": \"28702.2\",\n    \"volume\": \"0.77221659\",\n    \"volume30d\": \"22.63777667\",\n    \"bid\": 28033.3,\n    \"ask\": 28703.7,\n    \"priceChange\": \"417.9\",\n    \"priceChangePercentage\": \"1.48\",\n    \"pair\": \"BTC:USDT\"\n}"
+				}
+			]
+		},
+		{
+			"name": "api/get24hticker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/get24hticker?platform=cex",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"get24hticker"
+					],
+					"query": [
+						{
+							"key": "platform",
+							"value": "cex"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "cex",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/get24hticker?platform=cex",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"get24hticker"
+							],
+							"query": [
+								{
+									"key": "platform",
+									"value": "cex"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:57:10 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:57:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"timestamp\": \"1679504232\",\n    \"low\": \"26354.3\",\n    \"high\": \"28796.1\",\n    \"last\": \"28702.2\",\n    \"volume\": \"0.77221659\",\n    \"volume30d\": \"22.63777667\",\n    \"bid\": 28033.5,\n    \"ask\": 28701.6,\n    \"priceChange\": \"417.9\",\n    \"priceChangePercentage\": \"1.48\",\n    \"pair\": \"BTC:USDT\"\n}"
+				},
+				{
+					"name": "binance",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/get24hticker?platform=binance",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"get24hticker"
+							],
+							"query": [
+								{
+									"key": "platform",
+									"value": "binance"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:57:22 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:57:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"symbol\": \"BTCUSDT\",\n    \"priceChange\": \"260.02000000\",\n    \"priceChangePercent\": \"0.917\",\n    \"weightedAvgPrice\": \"28189.08101181\",\n    \"prevClosePrice\": \"28368.25000000\",\n    \"lastPrice\": \"28628.28000000\",\n    \"lastQty\": \"0.00350000\",\n    \"bidPrice\": \"28628.28000000\",\n    \"bidQty\": \"3.66846000\",\n    \"askPrice\": \"28628.29000000\",\n    \"askQty\": \"1.65417000\",\n    \"openPrice\": \"28368.26000000\",\n    \"highPrice\": \"28736.00000000\",\n    \"lowPrice\": \"27900.00000000\",\n    \"volume\": \"212374.26451000\",\n    \"quoteVolume\": \"5986635347.09616580\",\n    \"openTime\": 1679417843726,\n    \"closeTime\": 1679504243726,\n    \"firstId\": 3046238069,\n    \"lastId\": 3051001890,\n    \"count\": 4763822\n}"
+				}
+			]
+		},
+		{
+			"name": "api/getbestticker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/getbestticker",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"getbestticker"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "api/getbestticker",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getbestticker",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getbestticker"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:57:33 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Mar 2023 16:57:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.10"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"platform\": \"cex\",\n    \"asking_price\": 28698.3,\n    \"alternatives\": [\n        {\n            \"platform\": \"binance\",\n            \"asking_price\": \"28618.08000000\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
